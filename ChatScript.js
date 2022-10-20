@@ -29,7 +29,7 @@ function launchBot() {
     //Create CSS link
     const cssLink = document.createElement("link");
     cssLink.rel = "stylesheet";
-    cssLink.href = "ChatWidget/ChatStyle.css";
+    cssLink.href = "https://synhub.github.io/contact_widget/chatstyle.css";
     document.querySelector("head").appendChild(cssLink);
 
     //Create launch button
