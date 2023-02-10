@@ -3,45 +3,34 @@
 :root {
     --botapp-message-green: #a3d063;
     --botapp-button-green: #a3d063;
-    --botapp--user-message-bg-color: linear-gradient(90deg,#00b4fb,#51caff);
+    --botapp--user-message-bg-color: linear-gradient(90deg, #00b4fb, #51caff);
     --botapp--title-text-color: darkgray;
     --botapp--title-bg-color: #fff;
     --botapp--bot-message-color: #3b3e46;
     --botapp--title-bg-color: #0085ff;
     --botapp--send-button-bg-color: #ebedee;
-}
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-:root {
     --botapp--frame-width: 400px;
     --botapp--frame-height: 650px;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
 
-* .tooltiptext {
-	visibility: hidden;
-	position: absolute;
-	width: 120px;
-	background-color: #555;
-	color: #fff;
-	text-align: center;
-	padding: 5px 0;
-	border-radius: 6px;
-	z-index: 1;
-	opacity: 0;
-	transition: opacity .6s;
+.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .6s;
 
-  top: 10px;
-	bottom: auto;
-	right: 128%;
+    top: 10px;
+    bottom: auto;
+    right: 128%;
 }
 
 #bot-launch-button {
@@ -52,7 +41,6 @@ body {
 
     right: 25px;
     bottom: 25px;
-
 
     cursor: pointer;
     padding: 28px;
@@ -65,13 +53,11 @@ body {
     background-position: center;
     background-size: 32px 32px;
     z-index: 99999;
-
-    /*transition: transform .5s ease-in-out;*/
 }
 
 #bot-launch-button:hover {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
-    /*transform: rotate(360deg);*/
+    transform: rotate(60deg);
 }
 
 #bot-messenger-button {
@@ -101,9 +87,9 @@ body {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-#bot-messenger-button:hover .tooltiptext{
-  visibility: visible;
-  opacity: 1;
+#bot-messenger-button:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 #bot-whatsapp-button {
@@ -114,7 +100,7 @@ body {
 
     right: 25px;
     bottom: 220px;
-    
+
     cursor: pointer;
     padding: 28px;
     border-radius: 50px;
@@ -129,13 +115,13 @@ body {
     z-index: 99999;
 }
 
-#bot-whatsapp-button:hover{
+#bot-whatsapp-button:hover {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-#bot-whatsapp-button:hover .tooltiptext{
-  visibility: visible;
-  opacity: 1;
+#bot-whatsapp-button:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 #bot-gitter-button {
@@ -165,12 +151,12 @@ body {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-#bot-gitter-button:hover .tooltiptext{
-  visibility: visible;
-  opacity: 1;
+#bot-gitter-button:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
-#bot-email-button{
+#bot-email-button {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     position: fixed;
     background: #848484;
@@ -197,9 +183,9 @@ body {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-#bot-email-button:hover .tooltiptext{
-  visibility: visible;
-  opacity: 1;
+#bot-email-button:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 .widget-button-hidden {

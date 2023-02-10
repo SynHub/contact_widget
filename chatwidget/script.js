@@ -1,4 +1,4 @@
-/* Copyright (C) 2022 Synthetic Intelligence Network. Redistribution, use in source or binary forms are NOT permitted. */
+/* Copyright (C) 2023 Synthetic Intelligence Network. Redistribution, use in source or binary forms are NOT permitted. */
 
 let botScript = {
     buttonToggle: false,
