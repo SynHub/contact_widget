@@ -29,7 +29,7 @@ function launchBot() {
     //Create CSS link
     const cssLink = document.createElement("link");
     cssLink.rel = "stylesheet";
-    cssLink.href = "https://synhub.github.io/content_web/chatwidget/style.css";
+    cssLink.href = "https://synhub.github.io/web/chatwidget/style.css";
     document.querySelector("head").appendChild(cssLink);
 
     //Create launch button
