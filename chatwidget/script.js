@@ -38,13 +38,13 @@ function launchBot() {
     launchDiv.addEventListener("click", () => {
         if (botScript.buttonToggle === false) {
             messengerDiv.classList.remove("widget-button-hidden");
-            whatsappDiv.classList.remove("widget-button-hidden");
+            //whatsappDiv.classList.remove("widget-button-hidden");
             gitterDiv.classList.remove("widget-button-hidden");
             emailDiv.classList.remove("widget-button-hidden");
             botScript.buttonToggle = true;
         } else {
             messengerDiv.classList.add("widget-button-hidden");
-            whatsappDiv.classList.add("widget-button-hidden");
+            //whatsappDiv.classList.add("widget-button-hidden");
             gitterDiv.classList.add("widget-button-hidden");
             emailDiv.classList.add("widget-button-hidden");
             botScript.buttonToggle = false;
